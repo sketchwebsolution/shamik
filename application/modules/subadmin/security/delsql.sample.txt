@@ -1,0 +1,6 @@
+
+DROP TABLE IF EXISTS PRFXroles;
+
+ALTER TABLE PRFXadmins DROP COLUMN group_code;
+
+

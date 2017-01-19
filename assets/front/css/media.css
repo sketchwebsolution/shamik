@@ -1,0 +1,463 @@
+/***************************************
+****************************************
+***********  Media *********************
+*********** STYLE **********************/
+
+
+@media screen 
+  and (min-device-width: 1601px) 
+  and (max-device-width: 1920px) { 
+    .productslider .proimg {
+        width:39%
+    }	
+    .productslider .procontent {
+        width: 61%;
+    }
+    .protopheading {
+        padding: 8px 15px !important;
+    }
+    .pro_listing_bot {
+        padding: 10px 15px !important;
+    }
+    .bm_dtls li {
+		/*margin: 14% 0;*/
+	}
+	.listing_left .pro_img img {
+		width: 100%;
+	}
+	.addlisting {
+		height: 409px;
+	}
+}
+@media screen 
+  and (min-device-width: 1401px) 
+  and (max-device-width: 1600px) { 
+    .productslider .proimg {
+        width:47.5%;
+    }	
+    .productslider .procontent {
+        width: 52.5%;
+    }
+    .protopheading {
+        padding: 8px 15px !important;
+    }
+    .pro_listing_bot {
+        padding: 10px 15px !important;
+    }
+    .bm_dtls li {
+		margin: 14% 0;
+	}
+	.addlisting {
+		height: 326px;
+	}
+}
+
+
+@media (max-width: 1240px) {
+	
+}
+@media (max-width: 1199px) {
+	.header .navbar-inverse {
+        padding: 9px 0px;
+    }
+    .bdashboard_user .navbar-collapse {
+        padding: 0;
+    }
+    .bdashboard_user .nav > li > a {
+        padding: 16px 0px 5px;
+        font-size: 12px;
+    }
+    .addlisting {
+    	height: 243px;
+	}
+	.bm_dtls li {
+		padding: 0;
+	}
+}
+@media (max-width: 1024px) {
+	#sidebar-wrapper {
+		margin-left: 0px !important;
+		left: -290px !important;
+	}
+	#wrapper {
+		padding-left: 0 !important;      
+	}
+	#menu-toggle {
+		left: 0 !important;
+	}
+	#wrapper.active #sidebar-wrapper{
+		left: 0 !important;
+	}
+	#wrapper.active #menu-toggle {
+		left: 290px !important;
+	}
+}
+@media (max-width: 992px) {
+	.footerselect {
+        width: 31%;
+    }
+    .footerselect select {
+        font-size: 12px;
+    }
+    .header .navbar-inverse {
+        padding: 9px 0px;
+    }
+    .heading1, .bpol-title {
+		font-size: 24px;
+		line-height: 30px;
+	}
+	.heading2 {
+		font-size: 17px;
+		line-height: 24px;
+	}
+	.heading3 {
+		font-size: 15px;
+		line-height: 22px;
+	}
+	.heading4 {
+		font-size: 13px;
+		line-height: 22px;
+	}
+	.srtop > .col-sm-6 {
+		width: 100%;
+	}
+	.avatime {
+		padding: 30px 0;
+	}
+	.moreoption-ads {
+		padding: 0 15px;
+	}
+	.bpol-right {
+		height: auto !important;
+	}
+	.sellsearch .form-group::after {
+		right: 22%;
+	}
+	.btnlink .full_btn {
+    	padding: 8px;
+	}
+	.addoculas_img img,
+	.listing-product .preview-thumbnail.nav-tabs li img{
+		width: 100%;
+	}
+	.plr_bot li {
+    	width: 33.33%;
+    	text-align: center;
+	}
+    .addlisting {
+		height: 232px;
+	}
+	.bm_dtls li {
+		padding: 0;
+	}
+}
+@media (max-width: 800px) {
+    .header .navbar-inverse .navbar-nav > li > a {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    .header .bdashboard_user .navbar-nav > li > a {
+        padding-left: 0;
+    }
+    .header .bdashboard_user .navbar-nav > li > a b img {
+		position: relative;
+		top: -26px;
+		right: -7px;
+	}
+    .username {
+        margin-right: 2px;
+    }
+}
+@media (max-width: 768px) {
+	.busi_catlist li img {
+		-webkit-transform: scale(0.7);
+		-ms-transform: scale(0.7);
+		transform: scale(0.7);
+	}	
+	.busi_catlist li:hover img {
+    	-webkit-transform: scale(0.6);
+    	-ms-transform: scale(0.6);
+    	transform: scale(0.6);
+	}
+	.rsocial a {
+    	margin: 0 5px;
+	}
+}
+@media (max-width: 767px) {
+	.header .navbar-inverse{
+	   padding:9px 0px;
+	}
+    .total-notif {
+        left: 34px;
+    }
+    .heading1 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .heading2 {
+        font-size: 18px;
+    }
+    .heading3 {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .footerserrch .col-sm-3{
+        clear:both;
+    }
+    .footerselect select {
+        font-size: 12px;
+    }
+    .footerselect {
+        width: 31%;
+    }
+    .prodtls .pro_img img {
+        width: 100%;
+    }
+    .postimg img {
+		height: auto;
+	}
+	.banner-text h1 {
+		font-size: 26px;
+		text-align: center;
+	}
+	.banner-text h4 {
+		text-align: center;
+	}
+	.banner-text h4,
+	.page-secondtitle {
+		font-size: 20px;
+	}
+	.bpol-right {
+		height: auto !important;
+	}
+	.bpol-title {
+		padding: 10px;
+	}
+	.textdes, .prodltop {
+		padding: 15px 0;
+	}
+	.alltype_gbe .get_type,
+	.alltype_gbe .bed_type {
+		display: table;
+		width: 100%;
+	}
+	.catinvest-img {
+		margin-top: 20px;
+	}
+	.sellsearch .form-group::after {
+		bottom: 0;
+		right: 17%;
+	}
+	.faq-banner, .businessprofile-banner {
+		height: auto;
+	}
+	.businessprofile-banner .banner-text,
+	.banner-text, .faq-banner .banner-text {
+    	padding: 30px 0 20px;
+	}
+	.change_profile_pic {
+		margin: 0 auto;
+	}
+	.busenprofile_rating, .businessprofile-banner .col-sm-9,
+	.businessprofile-banner .col-sm-9 h2,
+	.businessprofile-banner .col-sm-9 h5,
+	.businessprofile-banner .col-sm-9 .text-left.banner-icon,
+	.banner-text h2,
+	.banner-text h4,
+	.banner-text .bp_dtls h5.text-left,
+	.text-left.banner-icon,
+	.bp_dtls.text-left,
+	.bp_dtls {
+		text-align: center;
+	}
+	.albumdtls .userabout {
+		height: auto;
+	}
+	.dashboardwrong_msg {
+		bottom: 3%;
+	}
+	.busenprofile_rating {
+		font-size: 20px;
+	}
+	.businessprofile-banner .full_btn {
+		margin-bottom:5px;	
+	}
+	.business_prof_pic {
+		margin: 5% auto;
+	}
+	.dl-horizontal dt {
+		float: left;
+	}
+	.buscontact_social a {
+    	padding: 0 10px;
+	}
+	.sm-chartside, .sm-chartright {
+		display: table;
+		width: 100%;
+	}
+	.business-tablink li span {
+		display: none;
+	}
+	.business-tablink .busi_catlist li {
+		width: 14.28%;
+		float: left;
+	}
+	.chartboard-bottom .col-sm-4,
+	.chartboard-bottom .col-sm-8{
+		width: 50%;
+		float: left;
+	}
+	.hikeprofile img {
+		margin-top: 0;
+	}
+	.albumdtls {
+    	padding: 15px;
+	}
+	.share_timeinput {
+		padding-right: 5px;
+	}
+	.social_account .share_timeinput {
+    	padding-right: 0;
+	}
+	.checksucess {
+		right: -15px;
+	}
+	.weektimetable li > div:first-child {
+		margin-bottom: 15px;
+	}
+	.forum-content {
+		border: none;
+		padding-left: 0;
+	}
+	.forumcon {
+    	padding-left: 20px;
+	}
+	.sellerlisting_caro .carousel-control.left {
+    	left: 26px;
+	}
+	.sellerlisting_caro .carousel-control.right {
+    	right: 30px;
+	}
+	.prodltop .text-right {
+		text-align: left;
+	}
+	.prodltop  .no-padding {
+		padding: 0 15px !important;
+	}
+	/*.featuresall, .innerfeatures {
+		padding: 0 15px;
+	}*/
+}
+@media (max-width: 640px) {
+	.newsletter {
+	   margin-top:30px;
+	}
+    .footerselect {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .avatime {
+		padding: 30px 0px;
+	}
+	.prodltop {
+		padding: 15px 0px;
+	}
+	.bpol-lafeimg {
+		padding-right: 0;
+	}
+	.consell_btn {
+		display: none;
+	}
+	.buscontact_social a {
+    	padding: 0 2px;
+	}
+	.business-tablink li span {
+		display: none;
+	}
+	.business-tablink .busi_catlist li {
+		width: 14.28%;
+		float: left;
+	}
+	.bpro_tab li {
+		padding: 10px 3px;
+	}
+	.bpro_tab li h4{
+		font-size: 12px;
+	}
+	.bpro_tab .totalitem {
+		font-size: 10px;
+	}
+}
+@media (max-width: 520px) {
+	.chartboard-bottom .col-sm-4,
+	.chartboard-bottom .col-sm-8{
+		width: 100%;
+		float: left;
+		text-align: center;
+	}
+	.ratio-malefemale.text-right {
+		text-align: center;
+	}
+	.chartfeature_btn li span {
+		display: none;	
+	}
+	.plr_bot li {
+    	width: 100%;
+    	text-align: center;
+    	margin: 10px 0;
+	}
+	.btnlink .full_btn {
+    	font-size: 12px;
+	}
+	.prolisting_right {
+		font-size:12px;
+	}
+	.bm_dtls li {
+		margin: 15% 0;
+		padding: 0;
+	}
+}
+@media (max-width: 405px) {
+	.fsocial-media a {
+        padding-right: 9px;
+    }
+    .pltop {
+		font-size: 10px;
+		padding: 15px 0px;
+	}
+	.pltop span {
+    	padding: 0px 0px 0 0;
+	}
+	.pltop img{
+		-webkit-transform: scale(0.7);
+	    -ms-transform: scale(0.7);
+	    transform: scale(0.7);
+	}
+	.business-pronav a {
+		padding: 0 25px;
+	}
+	.dl-horizontal dt {
+		width: 100%;
+	}
+	.dl-horizontal dd {
+    	margin-left: 0;
+	}
+	.buscontact_social a {
+    	width: 100%;
+    	display: table;
+    	margin: 15px 0;
+	}
+	.bpro_tab li, .bpro_tab li:last-child {
+		width: 100%;
+		padding: 10px 15px;
+		margin: 5px 0;
+	}
+    
+}
+@media (max-width: 360px) {
+		
+}
+@media (max-width: 320px) {
+		
+}
+

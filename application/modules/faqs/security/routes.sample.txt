@@ -1,0 +1,3 @@
+$route['admin/faqs'] = "faqs/admin";
+$route['admin/add-faqs'] = "faqs/admin/formfaqs";
+$route['admin/edit-faqs.PAGESUFFIX/(:any)'] = "faqs/admin/formfaqs/$1";

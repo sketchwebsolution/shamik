@@ -1,0 +1,387 @@
+/***************************************
+****************************************
+***********  Business ******************
+*********** STYLE **********************/
+
+.business-banner {
+    padding: 10% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-video {
+	position: relative;
+}
+.vdo-btn {
+	bottom: 0;
+    color: #fff;
+    font-size: 24px;
+    font-weight: normal;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.vdo_btn_innner {
+	display: table;
+    height: 100%;
+    width: 100%;
+}
+.vdo_btn_innner a {
+	display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+.bbaner-right {
+	text-align: center;
+}
+.bbaner-right h1 {
+	margin: 0 0 20px;
+	letter-spacing: 2px;
+}
+.bbaner-right h4 {
+	margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.bcatgory {
+	background: #353434;
+	    padding: 40px 0;
+}
+.homerimg {
+	display: none;
+}
+.busi_catlist {
+	
+}
+.busi_catlist li {
+	width: 20%;
+	color: #fff;
+	float: left;
+}
+.busi_catlist li img {
+	-webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+}
+.busi_catlist li:hover {
+	color: #41c5eb;
+}
+.busi_catlist li:hover img {
+	-webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+}
+.bcatgory .carousel-control {
+	position: relative;
+    display: inline-block;
+    width: 8%;
+    top: -4px;
+    z-index: 99;
+} 
+.bcatgory .carousel-indicators {
+	position: relative;
+	bottom: -20px;
+}
+.bcatgory .carousel-indicators li {
+	position: relative;
+	z-index: 999;
+}
+.bcatgory .carousel-control.left,
+.bcatgory .carousel-control.right {
+	background-image: none;
+}
+.carcontroler {
+	text-align: center;
+}
+.carcontroler span {
+	position: relative;
+}
+.bcatgory .carousel-indicators .active {
+	width: 10px;
+    height: 10px;
+    margin: 0;
+    background-color: #47c5ed;
+    border-color: #47c5ed;
+}
+.bcatgory .carousel-indicators li {
+	background-color: #fff;
+	width: 10px;
+	height: 10px;
+	margin: 0;
+}
+.bpol-right {
+	background: #e8e8e8;
+}
+.bpol-title {
+    margin: 0;
+    padding: 40px;
+    font-size: 32px;
+    line-height: 45px;
+}
+.bpolpara {
+    padding: 0 40px;
+}
+.catinvest, .pricetable, .standout, .bretarget {
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 40px 0;
+	display: table;
+    width: 100%;
+}
+.businesstitle {
+    margin: 0;
+}
+.busiheader-title span {
+    display: inline-block;
+    width: 10%;
+    height: 10px;
+    background: #41c5eb;
+    margin: 0 0 30px;
+}
+.busiheader-title {
+    margin-bottom: 60px;
+}
+.catinvest-img {
+    margin-bottom: 50px;
+}
+.catinvest-title {
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+.cavlist {
+	
+}
+.cavlist li {
+	line-height: 28px;
+}
+.cavlist li a{
+	color: #fff;
+}
+.cavlist li a:hover{
+	color: #47c5ed;
+}
+
+
+/********** Table ***********/
+
+.lptable {
+	padding: 0 15px;
+}
+.tableheading {
+	background: rgba(52,52,52,0.80);
+    min-height: 100px;
+    display: table;
+    width: 100%;
+}
+.textdes {
+	display: table-cell;
+	vertical-align: middle;
+}
+.textdes .heading4 {
+	font-size: 10px;
+	padding: 0 13%;
+}
+.tablelist {
+	
+}
+.tablelist li {
+	background: rgba(255,255,255,0.80);
+    color: #7b7b7b;
+    height: 80px;
+    line-height: 80px;
+}
+.tablelist li:nth-child(even) {
+	background: rgba(234,234,234,0.80);
+}
+.buttonli.logbtn .full_btn {
+	line-height: 20px;
+}
+.startup .tableheading{
+	background: #343434;
+} 
+.enterprice .tableheading{
+	background: rgba(71, 195, 232, 0.8);
+}
+.bpolcarousel .carousel-control.right,
+.bpolcarousel .carousel-control.left {
+	background-image: none;
+}
+.bpolcarousel .carousel-control {
+	opacity: 1;
+	width: 2%;
+    font-size: 40px;
+    color: #343434;
+    text-shadow: none;
+    top: 50%;
+}
+.bpolcarousel .carousel-control:hover {
+	color: #333;
+}
+.bpolcarousel .carousel-control.right {
+	right: -25px;
+}
+.bpolcarousel .carousel-control.left {
+	left: -25px;
+}
+.videomadal .close {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    z-index: 999;
+    width: 30px;
+    height: 30px;
+    background: #47c3e8;
+    opacity: 1;
+    border-radius: 50%;
+    text-shadow: none;
+    color: #fff;
+}
+.videomadal .modal-dialog {
+	width: 800px;
+	background: transparent url('../media/business-poster.jpg') 50% 50% / cover no-repeat ;
+}
+.videomadal .modal-dialog video[poster]{
+	height:100%;
+	width:100%;
+	
+}
+.full-carowsel {
+	position: relative;
+}
+
+/*********** Business Earn *************/
+
+.payment_describe {
+    margin: 40px 0;
+    display: table;
+    width: 100%;
+}
+.consell_btn {
+	position: absolute;
+	right: 0;
+	top: 5%;
+	z-index: 9999;
+}
+.consell_btn img {
+	width: 100px;
+}
+
+
+
+
+/************** Business Market ***********/
+
+.standout {
+	padding: 120px 0;
+	position: relative;
+}
+.calltoaction {
+	position: absolute;
+	right: 0;
+	top: 40%;
+	width: 22%;
+	/*height: 80px;*/
+	color: #dededd;
+	background: #fff;
+	padding: 30px 0;
+	border-left: 7px solid #50c3e7;
+	box-shadow: 0px 3px 4px rgba(52, 52, 52, 0.4);
+}
+.standout .calltoaction p {
+	margin: 10px 0 0;
+}
+.standout p {
+	line-height: 33px;
+	margin-top: 40px;
+}
+
+/******** Promotion *******/
+
+.promotion {
+	padding: 60px 0;
+}
+.promotiontxt {
+	padding-top: 20%;
+}
+.rsocialnet {
+    background: #343434;
+}
+.rsocial {
+	margin: 40px 0;
+}
+.rsocial a {
+	margin: 0 30px; 
+}
+.bretarget {
+	padding: 120px 0;
+}
+.bretarget p {
+	line-height: 33px;
+}
+.busireport {
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.marketingprice .tablelist li {
+	height: auto;
+	line-height: 22px;
+    padding: 14px 0;
+}
+
+
+
+/**************** Business Sell *************/
+
+.bsell-search {
+    background: #343434;
+    padding: 60px 0;
+    display: table;
+    width: 100%;
+}
+.sellsearch .form-control {
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #fff url(../images/icon/select-arrow.png) 95% center no-repeat;
+    height: 45px;
+    position: relative;
+}
+.sellsearch .form-control:focus {
+	box-shadow: none;
+	border: 1px solid #41c5eb;
+}
+.sellsearch .form-group:after {
+	position: absolute;
+    content: '';
+    width: 4px;
+    height: 45px;
+    background: #343434;
+    right: 17%;
+    bottom: 15px;
+}
+.bsell-search h2 {
+	letter-spacing: 2px;
+	margin-bottom: 40px;
+}
+
+/********** Business Sell ***********/
+
+.sellsection {
+	background: #f3f3f3;
+	display: table;
+	width: 100%;
+}
+.sellsectioncentent {
+    padding: 20% 10% 0 0;
+}
+
+
+
+
+

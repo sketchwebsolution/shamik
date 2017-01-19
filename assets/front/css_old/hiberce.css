@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.weakpwd{
+background-color: #DD0000;
+}
+.goodpwd{
+background-color: #FF4500;
+}
+.strongpwd{
+background-color: #C3FF88;
+
+}
+label.error{color:#dd0000;font-size: 13px;}
+
+.modal .or-divider {
+    margin-top: 14px;
+    text-align: center;
+}
+.modal .or-divider hr {
+    border-top: 1px solid rgba(238, 238, 238, 0.73);
+    display: inline-block;
+    width: 100px;
+}
+.modal .or-divider span {
+    bottom: 16px;
+    color: #aaaaa9;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+}

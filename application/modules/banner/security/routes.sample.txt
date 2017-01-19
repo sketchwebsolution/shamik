@@ -1,0 +1,3 @@
+$route['admin/banner'] = "banner/admin";
+$route['admin/add-banner'] = "banner/admin/formbanner";
+$route['admin/edit-banner.PAGESUFFIX/(:any)'] = "banner/admin/formbanner/$1";

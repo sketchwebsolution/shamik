@@ -1,0 +1,159 @@
+/***************************************
+****************************************
+***********  Business ******************
+*********** STYLE **********************/
+
+.business-banner {
+    padding: 10% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-video {
+	position: relative;
+}
+.vdo-btn {
+	bottom: 0;
+    color: #fff;
+    font-size: 24px;
+    font-weight: normal;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.vdo_btn_innner {
+	display: table;
+    height: 100%;
+    width: 100%;
+}
+.vdo_btn_innner a {
+	display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+.bbaner-right {
+	text-align: center;
+}
+.bbaner-right h1 {
+	margin: 0 0 20px;
+	letter-spacing: 1px;
+}
+.bbaner-right h4 {
+	margin-bottom: 80px;
+    font-size: 19px;
+    margin-top: 30px;
+}
+
+.bcatgory {
+	background: #353434;
+	    padding: 40px 0;
+}
+.homerimg {
+	display: none;
+}
+.busi_catlist {
+	
+}
+.busi_catlist li {
+	width: 20%;
+	color: #fff;
+	float: left;
+}
+.bcatgory .carousel-control {
+	position: relative;
+    display: inline-block;
+    width: 8%;
+    top: -4px;
+    z-index: 99;
+} 
+.bcatgory .carousel-indicators {
+	position: relative;
+	bottom: -20px;
+}
+.bcatgory .carousel-indicators li {
+	position: relative;
+	z-index: 999;
+}
+.bcatgory .carousel-control.left,
+.bcatgory .carousel-control.right {
+	background-image: none;
+}
+.carcontroler {
+	text-align: center;
+}
+.carcontroler span {
+	position: relative;
+}
+.bcatgory .carousel-indicators .active {
+	width: 10px;
+    height: 10px;
+    margin: 0;
+    background-color: #47c5ed;
+    border-color: #47c5ed;
+}
+.bcatgory .carousel-indicators li {
+	background-color: #fff;
+	width: 10px;
+	height: 10px;
+	margin: 0;
+}
+.bpol-right {
+	background: #e8e8e8;
+}
+.bpol-title {
+    margin: 0;
+    padding: 40px;
+    font-size: 32px;
+    line-height: 45px;
+}
+.bpolpara {
+    padding: 0 40px;
+}
+.catinvest, .pricetable {
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 40px 0;
+	display: table;
+    width: 100%;
+}
+.businesstitle {
+    margin: 0;
+    font-size: 24px;
+}
+.busiheader-title span {
+    display: inline-block;
+    width: 10%;
+    height: 10px;
+    background: #41c5eb;
+    margin: 0 0 30px;
+}
+.busiheader-title {
+    margin-bottom: 60px;
+}
+.catinvest-img {
+    margin-bottom: 50px;
+}
+.catinvest-title {
+    font-size: 18px;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+.cavlist {
+	
+}
+.cavlist li {
+	line-height: 28px;
+}
+.cavlist li a{
+	color: #fff;
+}
+.cavlist li a:hover{
+	color: #47c5ed;
+}
+
+
+

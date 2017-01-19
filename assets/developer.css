@@ -1,0 +1,180 @@
+.overlay {
+    background: rgba(0, 0, 0, .5);
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999
+}
+.errormessage {
+    background: #fcb6b6;
+    color: #9a0000;
+    border-radius: 3px;
+    box-shadow: 0 0 14px -3px rgba(0, 0, 0, .75);
+    width: 650px
+}
+.errormessage,
+.successmessage {
+    -webkit-box-shadow: 0 0 14px -3px rgba(0, 0, 0, .75);
+    -moz-box-shadow: 0 0 14px -3px rgba(0, 0, 0, .75);
+    -o-box-shadow: 0 0 14px -3px rgba(0, 0, 0, .75);
+    border: 5px solid #c2c2c2;
+    height: 50px;
+    left: 50%;
+    z-index: 9999;
+    margin-left: -330px;
+    margin-top: -30px;
+    padding: 10px;
+    position: fixed;
+    top: 50%
+}
+.successmessage {
+    background: #befebe;
+    color: #005b00;
+    border-radius: 3px;
+    box-shadow: 0 0 14px -3px rgba(0, 0, 0, .75);
+    width: 650px
+}
+.errormessage div,
+.successmessage div {
+    display: inline-block;
+    margin-left: 10px
+}
+.successmessage span {
+    display: inline-block
+}
+.errormessage span {
+    display: inline-block
+}
+.closebutn {
+    float: right;
+    cursor: pointer
+}
+.toppanel_txt {
+    margin-right: 0!important
+}
+
+
+.skin-blue .main-header .navbar{ background-color: #D50100;}
+.skin-blue .main-header li.user-header {
+  background-color: #D50100;
+}
+.skin-blue .main-header .logo{background-color: #D50100;}
+.skin-blue .wrapper, .skin-blue .main-sidebar, .skin-blue .left-side{background: #041134 none repeat scroll 0 0;}
+.skin-blue .main-header .navbar .sidebar-toggle:hover{ background-color: rgba(0,0,0,0.2);}
+.skin-blue .main-header .logo:hover{ background-color:  #D50100; }
+.skin-blue .sidebar a{ color:#FFF;}
+.skin-blue .sidebar-menu > li > a:hover, .skin-blue .sidebar-menu > li.active > a{border-left-color: #ffffff;
+	background: rgba(0,0,0,0.5) none repeat scroll 0 0;}
+
+	.bg-aqua, .callout.callout-info, .alert-info, .label-info, .modal-info .modal-body {
+    background-color: #D50100 !important;
+}
+
+a {
+    color: #041134;
+}
+.btn-primary:hover, .btn-primary:active, .btn-primary.hover {
+    background-color: #041134!important; border:1px solid rgba(0,0,0,0.5);
+} 
+a:hover, a:active, a:focus {
+    color: #041134;
+    outline: medium none;
+    text-decoration: none;
+}
+
+.login-page,
+.register-page {
+    background: #021F47;
+}
+
+.btn-primary {
+    background-color: #D50100;
+    border-color: none;
+}
+
+.box
+{
+  box-shadow : inset 0 0 5px #021F47 !important;
+  border-top : 2px solid #041134 !important;
+}
+
+/*------------------------------New Theme Implementation by Anup Da starts here-------------------*/
+html, body {height: 100%;  margin: 0; }
+h1,h2,h3,h4,h5,h6{font-weight: 500 !important;}
+h1{font-size: 30px}
+h2{font-size: 24px}
+h3{font-size: 20px}
+h4{font-size: 18px}
+h5{font-size: 16px}
+h6{font-size: 14px}
+
+.content-header h1 {margin: 0 ; padding: 0}
+.content-header h1 small{display: none;}
+.gridly .info-box-content{padding-top: 20px; font-weight: normal}
+.gridly .info-box-number{font-weight: normal; font-size: 16px; text-align: center}
+.content {padding-top: 0;}
+.box-body{padding: 20px 20px 0 20px;}
+.box-header{padding: 20px; border-bottom: 1px solid #ddd;}
+.box-header .btn{float: right; margin-left: 5px;}
+.box-header form#uplform{float: right}
+ 
+form#site_settings{padding-bottom: 10px;}
+form#changepwd{padding-bottom: 10px}
+form#cms_form{padding-bottom: 10px}
+
+.box,.box.box-warning,.box.box-success,.box.box-danger,.box.box-default{border-top:2px solid #3c8dbc }
+.box-header h3.box-title{font-weight: 600 !important; line-height: 30px}
+.panel-heading h3{font-weight: 600 !important; }
+.box-header .btn{float: right}
+.dataTables_wrapper {margin-top: -20px}
+.dataTables_wrapper .row:first-child{background: rgba(208,226,226,0.8); padding-top: 10px; padding-bottom: 5px}
+.dataTables_wrapper .row:last-child{background: rgba(208,226,226,0.5); padding-top: 10px; padding-bottom: 5px}
+.dataTables_wrapper .row{margin-left: -20px !important; margin-right: -20px !important}
+.dataTables_wrapper .table{margin: 0 !important}
+.dataTables_wrapper .row:first-child input,.dataTables_wrapper .row:first-child select{height: 32px; border-radius: 3px; border: 1px solid #ccc; padding-left: 8px}
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th{padding: 12px}
+/* .dataTables_wrapper .table-bordered > tbody > tr > td {border-bottom: 1px solid #e5e5e5;}*/
+.dataTables_wrapper .table-bordered > thead > tr > th{border-bottom: 1px solid #e5e5e5;}
+.dataTables_empty {color:#b40b0b; text-align: center; padding: 50px 10px !important; }
+.dataTables_wrapper tr.even {background: #eff0f0}
+.dataTables_wrapper tr.odd {background: #fff}
+.dataTables_wrapper tfoot{display: none}
+.pagination > li:first-of-type a, .pagination > li:last-of-type a,.pagination li a{border-radius: 50%}
+.disablediv{ background: rgba(255, 255, 255, 0.5) !important}
+
+.panel-default > .panel-heading{background: rgba(208,226,226,0.8)}
+p.login-box-msg{font-size: 16px; color: #000} 
+ul.sidebar-menu {padding-top: 20px}
+ul.sidebar-menu li:hover{background: rgba(50,50,50,0.6)}
+ul.sidebar-menu li a{border-top:1px solid rgba(0,0,0,0.2); padding-top: 15px; padding-bottom: 15px}
+ul.sidebar-menu li:last-child a{border-bottom:1px solid rgba(0,0,0,0.2)}
+.user-panel {    padding: 30px 10px 10px;}
+
+input.form-control,select.form-control{height: 40px; border-radius: 3px !important; padding-left: 8px}
+input.form-control{padding-left: 12px}
+textarea.form-control{border-radius: 3px !important; padding-left: 10px; border-color: #d2d6de}
+.content-header { padding: 15px 21px 20px 21px;}
+.content {padding-left: 21px; padding-right: 21px;}
+
+.sitelogo
+{
+    background:rgba(0,0,0,0.5);
+    margin-bottom:10px;
+    padding:15px;
+    border-bottom:1px solid rgba(0,0,0,0.2);
+}
+
+.sitelogo img
+{
+    margin:0 auto;
+    max-width:100px;
+    height:auto;
+}
+
+
+
+.gridly{ width: 100% !important;  }
+
+/*------------------------------New Theme Implementation by Anup Da ends here-------------------*/ 

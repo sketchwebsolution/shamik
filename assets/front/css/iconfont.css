@@ -1,0 +1,548 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?d6b1ud');
+  src:  url('fonts/icomoon.eot?d6b1ud#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?d6b1ud') format('truetype'),
+    url('fonts/icomoon.woff?d6b1ud') format('woff'),
+    url('fonts/icomoon.svg?d6b1ud#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Off_Sticker:before {
+  content: "\e900";
+}
+.icon-Off_Sticker2:before {
+  content: "\e901";
+}
+.icon-Off_Sticker3:before {
+  content: "\e902";
+}
+.icon-off_Sticker:before {
+  content: "\e903";
+}
+.icon-Off_Sticker4:before {
+  content: "\e904";
+}
+.icon-Active_Campaign:before {
+  content: "\e905";
+}
+.icon-Add:before {
+  content: "\e906";
+}
+.icon-Add_Connection:before {
+  content: "\e907";
+}
+.icon-Add_Employee:before {
+  content: "\e908";
+}
+.icon-Add_Friend:before {
+  content: "\e909";
+}
+.icon-Add_Listing:before {
+  content: "\e90a";
+}
+.icon-Add_To_Cart:before {
+  content: "\e90b";
+}
+.icon-Add_To_Wishlist:before {
+  content: "\e90c";
+}
+.icon-AdjustnManage:before {
+  content: "\e90d";
+}
+.icon-Adult:before {
+  content: "\e90e";
+}
+.icon-age:before {
+  content: "\e90f";
+}
+.icon-Airconditioning:before {
+  content: "\e910";
+}
+.icon-Arrow:before {
+  content: "\e911";
+}
+.icon-Assign_Task:before {
+  content: "\e912";
+}
+.icon-Average .path1:before {
+  content: "\e913";
+  color: rgb(253, 196, 85);
+}
+.icon-Average .path2:before {
+  content: "\e914";
+  margin-left: -1em;
+  color: rgb(206, 149, 82);
+}
+.icon-Average .path3:before {
+  content: "\e915";
+  margin-left: -1em;
+  color: rgb(206, 149, 82);
+}
+.icon-Average .path4:before {
+  content: "\e916";
+  margin-left: -1em;
+  color: rgb(206, 149, 82);
+}
+.icon-Bar:before {
+  content: "\e917";
+}
+.icon-Bath:before {
+  content: "\e918";
+}
+.icon-Block:before {
+  content: "\e919";
+}
+.icon-Bus:before {
+  content: "\e91a";
+}
+.icon-Cable_TV:before {
+  content: "\e91b";
+}
+.icon-CalendernEvents:before {
+  content: "\e91c";
+}
+.icon-Cancel:before {
+  content: "\e91d";
+}
+.icon-Cancel_Error:before {
+  content: "\e91e";
+}
+.icon-Caretaker:before {
+  content: "\e91f";
+}
+.icon-Change_Location:before {
+  content: "\e920";
+}
+.icon-Child:before {
+  content: "\e921";
+}
+.icon-Computer:before {
+  content: "\e922";
+}
+.icon-Concierge:before {
+  content: "\e923";
+}
+.icon-Conference_Room:before {
+  content: "\e924";
+}
+.icon-Confirm:before {
+  content: "\e925";
+}
+.icon-Covered_Parking:before {
+  content: "\e926";
+}
+.icon-CRM:before {
+  content: "\e927";
+}
+.icon-Deck:before {
+  content: "\e928";
+}
+.icon-Dislike:before {
+  content: "\e929";
+}
+.icon-Download:before {
+  content: "\e92a";
+}
+.icon-Dry_Cleaning:before {
+  content: "\e92b";
+}
+.icon-Edit:before {
+  content: "\e92c";
+}
+.icon-Email_Verified:before {
+  content: "\e92d";
+}
+.icon-Entertainment_Area:before {
+  content: "\e92e";
+}
+.icon-Experience:before {
+  content: "\e92f";
+}
+.icon-Export:before {
+  content: "\e930";
+}
+.icon-Facebook:before {
+  content: "\e931";
+}
+.icon-Female:before {
+  content: "\e932";
+}
+.icon-Finance:before {
+  content: "\e933";
+}
+.icon-Fitness_Centre:before {
+  content: "\e934";
+}
+.icon-Fitting_Room:before {
+  content: "\e935";
+}
+.icon-Flagged_Seller:before {
+  content: "\e936";
+}
+.icon-Follow:before {
+  content: "\e937";
+}
+.icon-Free_Parking:before {
+  content: "\e938";
+}
+.icon-Free_Sticker:before {
+  content: "\e939";
+}
+.icon-Friends:before {
+  content: "\e93a";
+}
+.icon-Getaways:before {
+  content: "\e93b";
+}
+.icon-Gifts:before {
+  content: "\e93c";
+}
+.icon-Golf:before {
+  content: "\e93d";
+}
+.icon-Good .path1:before {
+  content: "\e93e";
+  color: rgb(253, 196, 85);
+}
+.icon-Good .path2:before {
+  content: "\e93f";
+  margin-left: -1em;
+  color: rgb(206, 149, 82);
+}
+.icon-Good .path3:before {
+  content: "\e940";
+  margin-left: -1em;
+  color: rgb(206, 149, 82);
+}
+.icon-Good .path4:before {
+  content: "\e941";
+  margin-left: -1em;
+  color: rgb(206, 149, 82);
+}
+.icon-Google+:before {
+  content: "\e942";
+}
+.icon-Hairdryer:before {
+  content: "\e943";
+}
+.icon-Home:before {
+  content: "\e944";
+}
+.icon-HR:before {
+  content: "\e945";
+}
+.icon-Image:before {
+  content: "\e946";
+}
+.icon-Inactive_Campaign:before {
+  content: "\e947";
+}
+.icon-Info:before {
+  content: "\e948";
+}
+.icon-Invite:before {
+  content: "\e949";
+}
+.icon-Jacuzzi:before {
+  content: "\e94a";
+}
+.icon-Keys:before {
+  content: "\e94b";
+}
+.icon-Kids_Pool:before {
+  content: "\e94c";
+}
+.icon-Launch_Campaign:before {
+  content: "\e94d";
+}
+.icon-Layer-96:before {
+  content: "\e94e";
+}
+.icon-Like:before {
+  content: "\e94f";
+}
+.icon-Live_Chat:before {
+  content: "\e950";
+}
+.icon-Location:before {
+  content: "\e951";
+}
+.icon-Logistics:before {
+  content: "\e952";
+}
+.icon-Lounge:before {
+  content: "\e953";
+}
+.icon-Male:before {
+  content: "\e954";
+}
+.icon-Marketing:before {
+  content: "\e955";
+}
+.icon-Marketing-Campaign:before {
+  content: "\e956";
+}
+.icon-Messages:before {
+  content: "\e957";
+}
+.icon-New-Sticker:before {
+  content: "\e958";
+}
+.icon-Nice-purchase:before {
+  content: "\e959";
+}
+.icon-Not-Good .path1:before {
+  content: "\e95a";
+  color: rgb(253, 196, 85);
+}
+.icon-Not-Good .path2:before {
+  content: "\e95b";
+  margin-left: -1em;
+  color: rgb(206, 149, 82);
+}
+.icon-Not-Good .path3:before {
+  content: "\e95c";
+  margin-left: -1em;
+  color: rgb(206, 149, 82);
+}
+.icon-Not-Good .path4:before {
+  content: "\e95d";
+  margin-left: -1em;
+  color: rgb(206, 149, 82);
+}
+.icon-Notifications:before {
+  content: "\e95e";
+}
+.icon-On-Off:before {
+  content: "\e95f";
+}
+.icon-Orders:before {
+  content: "\e960";
+}
+.icon-Outdoor-Play-Area:before {
+  content: "\e961";
+}
+.icon-Parking:before {
+  content: "\e962";
+}
+.icon-Pause-Listing:before {
+  content: "\e963";
+}
+.icon-Payment-VerifiednEarn:before {
+  content: "\e964";
+}
+.icon-Pet-Friendly:before {
+  content: "\e965";
+}
+.icon-Phone:before {
+  content: "\e966";
+}
+.icon-Phone-Verified:before {
+  content: "\e967";
+}
+.icon-Pinterest:before {
+  content: "\e968";
+}
+.icon-Products:before {
+  content: "\e969";
+}
+.icon-Profile:before {
+  content: "\e96a";
+}
+.icon-Put-Put:before {
+  content: "\e96b";
+}
+.icon-Rating:before {
+  content: "\e96c";
+}
+.icon-Reception:before {
+  content: "\e96d";
+}
+.icon-Redeem:before {
+  content: "\e96e";
+}
+.icon-Refund:before {
+  content: "\e96f";
+}
+.icon-Remove:before {
+  content: "\e970";
+}
+.icon-Remove-Business-Connection:before {
+  content: "\e971";
+}
+.icon-Remove-Employee:before {
+  content: "\e972";
+}
+.icon-Remove-Friend:before {
+  content: "\e973";
+}
+.icon-Remove-Listing:before {
+  content: "\e974";
+}
+.icon-Restaurant:before {
+  content: "\e975";
+}
+.icon-Room-Service:before {
+  content: "\e976";
+}
+.icon-Sauna:before {
+  content: "\e977";
+}
+.icon-Search:before {
+  content: "\e978";
+}
+.icon-Sell:before {
+  content: "\e979";
+}
+.icon-Services:before {
+  content: "\e97a";
+}
+.icon-Share:before {
+  content: "\e97b";
+}
+.icon-Share-To-Friend:before {
+  content: "\e97c";
+}
+.icon-Shipping-Insurance:before {
+  content: "\e97d";
+}
+.icon-Shop:before {
+  content: "\e97e";
+}
+.icon-Shopping-Cart:before {
+  content: "\e97f";
+}
+.icon-Shower:before {
+  content: "\e980";
+}
+.icon-Sold-Sticker:before {
+  content: "\e981";
+}
+.icon-Spa:before {
+  content: "\e982";
+}
+.icon-Steam-Room:before {
+  content: "\e983";
+}
+.icon-Success:before {
+  content: "\e984";
+}
+.icon-Support:before {
+  content: "\e985";
+}
+.icon-Swimmin-Pool:before {
+  content: "\e986";
+}
+.icon-Task:before {
+  content: "\e987";
+}
+.icon-Taxi:before {
+  content: "\e988";
+}
+.icon-Tennis:before {
+  content: "\e989";
+}
+.icon-Toilet:before {
+  content: "\e98a";
+}
+.icon-Train-Station:before {
+  content: "\e98b";
+}
+.icon-Tram:before {
+  content: "\e98c";
+}
+.icon-TV:before {
+  content: "\e98d";
+}
+.icon-Twitter:before {
+  content: "\e98e";
+}
+.icon-Unboxing:before {
+  content: "\e98f";
+}
+.icon-Upload:before {
+  content: "\e990";
+}
+.icon-Verified-Seller:before {
+  content: "\e991";
+}
+.icon-Very-Bad .path1:before {
+  content: "\e992";
+  color: rgb(253, 196, 85);
+}
+.icon-Very-Bad .path2:before {
+  content: "\e993";
+  margin-left: -1em;
+  color: rgb(206, 149, 82);
+}
+.icon-Very-Bad .path3:before {
+  content: "\e994";
+  margin-left: -1em;
+  color: rgb(206, 149, 82);
+}
+.icon-Very-Bad .path4:before {
+  content: "\e995";
+  margin-left: -1em;
+  color: rgb(206, 149, 82);
+}
+.icon-Very-Nice .path1:before {
+  content: "\e996";
+  color: rgb(253, 196, 85);
+}
+.icon-Very-Nice .path2:before {
+  content: "\e997";
+  margin-left: -1em;
+  color: rgb(239, 65, 54);
+}
+.icon-Very-Nice .path3:before {
+  content: "\e998";
+  margin-left: -1em;
+  color: rgb(206, 149, 82);
+}
+.icon-Very-Nice .path4:before {
+  content: "\e999";
+  margin-left: -1em;
+  color: rgb(206, 149, 82);
+}
+.icon-Wallet:before {
+  content: "\e99a";
+}
+.icon-Warm-Pool:before {
+  content: "\e99b";
+}
+.icon-Warning:before {
+  content: "\e99c";
+}
+.icon-Water-Slide:before {
+  content: "\e99d";
+}
+.icon-Wheelchair-Friendly:before {
+  content: "\e99e";
+}
+.icon-Wifi:before {
+  content: "\e99f";
+}
+.icon-Wishlist:before {
+  content: "\e9a0";
+}
+.icon-Youtube:before {
+  content: "\e9a1";
+}
+

@@ -1,0 +1,2 @@
+{"menuname":"Sub Admin","icon":"fa fa-users","url":"admin\/subadmin","active":"subadmin","submenu":[{"menuname":"Role","icon":"fa-user-secret","url":"admin\/role","active":"role"}]}
+

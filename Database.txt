@@ -1,0 +1,2 @@
+ALTER TABLE `h_login_log`
+  ADD CONSTRAINT `const_user_login_log` FOREIGN KEY (`user_id`) REFERENCES `h_users` (`id`) ON DELETE CASCADE;

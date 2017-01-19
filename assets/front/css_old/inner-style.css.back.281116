@@ -1,0 +1,734 @@
+/***************************************
+****************************************
+***********  Business ******************
+*********** STYLE **********************/
+
+
+.business-banner {
+    padding: 10% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-video {
+	position: relative;
+}
+.vdo-btn {
+	bottom: 0;
+    color: #fff;
+    font-size: 24px;
+    font-weight: normal;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.vdo_btn_innner {
+	display: table;
+    height: 100%;
+    width: 100%;
+}
+.vdo_btn_innner a {
+	display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+.bbaner-right {
+	text-align: center;
+}
+.bbaner-right h1 {
+	margin: 0 0 20px;
+	letter-spacing: 2px;
+}
+.bbaner-right h4 {
+	margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.bcatgory {
+	background: #353434;
+	    padding: 40px 0;
+}
+.homerimg {
+	display: none;
+}
+.busi_catlist {
+	
+}
+.busi_catlist li {
+	width: 20%;
+	color: #fff;
+	float: left;
+}
+.busi_catlist li img {
+	-webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+}
+.busi_catlist li:hover {
+	color: #41c5eb;
+}
+.busi_catlist li:hover .homerimg{
+	display: inline;
+}
+.busi_catlist li:hover .normalimg{
+	display: none;
+}
+.busi_catlist li:hover img {
+	-webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+}
+.bcatgory .carousel-control {
+	position: relative;
+    display: inline-block;
+    width: 8%;
+    top: -4px;
+    z-index: 99;
+} 
+.bcatgory .carousel-indicators {
+	position: relative;
+	bottom: -20px;
+}
+.bcatgory .carousel-indicators li {
+	position: relative;
+	z-index: 999;
+}
+.bcatgory .carousel-control.left,
+.bcatgory .carousel-control.right {
+	background-image: none;
+}
+.carcontroler {
+	text-align: center;
+}
+.carcontroler span {
+	position: relative;
+}
+.bcatgory .carousel-indicators .active {
+	width: 10px;
+    height: 10px;
+    margin: 0;
+    background-color: #47c5ed;
+    border-color: #47c5ed;
+}
+.bcatgory .carousel-indicators li {
+	background-color: #fff;
+	width: 10px;
+	height: 10px;
+	margin: 0;
+}
+.bpol-right {
+	background: #e8e8e8;
+}
+.bpol-title {
+    margin: 0;
+    padding: 40px 10px;
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 700;
+}
+.bpolpara {
+    padding: 0 40px 0 10px;
+}
+.catinvest, .pricetable, .standout, .bretarget {
+	/*background-attachment: fixed;*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 40px 0;
+	display: table;
+    width: 100%;
+}
+.businesstitle {
+    margin: 0;
+}
+.busiheader-title span {
+    display: inline-block;
+    width: 10%;
+    height: 10px;
+    background: #41c5eb;
+    margin: 0 0 30px;
+}
+.busiheader-title {
+    margin-bottom: 60px;
+}
+.catinvest-img {
+    margin-bottom: 50px;
+}
+.catinvest-title {
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+.cavlist {
+	
+}
+.cavlist li {
+	line-height: 28px;
+}
+.cavlist li a{
+	color: #fff;
+}
+.cavlist li a:hover{
+	color: #47c5ed;
+}
+
+
+/********** Table ***********/
+
+.lptable {
+	padding: 0 15px;
+}
+.tableheading {
+	background: rgba(52,52,52,0.80);
+    min-height: 100px;
+    display: table;
+    width: 100%;
+}
+.textdes {
+	display: table-cell;
+	vertical-align: middle;
+}
+.textdes .heading4 {
+	font-size: 10px;
+	padding: 0 13%;
+}
+.tablelist {
+	
+}
+.tablelist li {
+	background: rgba(255,255,255,0.80);
+    color: #7b7b7b;
+    height: 80px;
+    line-height: 80px;
+}
+.tablelist li:nth-child(even) {
+	background: rgba(234,234,234,0.80);
+}
+.buttonli.logbtn .full_btn {
+	line-height: 20px;
+}
+.startup .tableheading{
+	background: #343434;
+} 
+.enterprice .tableheading{
+	background: rgba(71, 195, 232, 0.8);
+}
+.bpolcarousel .carousel-control.right,
+.bpolcarousel .carousel-control.left {
+	background-image: none;
+}
+.bpolcarousel .carousel-control {
+	opacity: 1;
+	width: 2%;
+    font-size: 40px;
+    color: #343434;
+    text-shadow: none;
+    top: 50%;
+}
+.bpolcarousel .carousel-control:hover {
+	color: #333;
+}
+.bpolcarousel .carousel-control.right {
+	right: -25px;
+}
+.bpolcarousel .carousel-control.left {
+	left: -25px;
+}
+.videomadal .close {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    z-index: 999;
+    width: 30px;
+    height: 30px;
+    background: #47c3e8;
+    opacity: 1;
+    border-radius: 50%;
+    text-shadow: none;
+    color: #fff;
+}
+.videomadal .modal-dialog {
+	width: 85%;
+	height: 92%;
+	background: transparent url('../media/business-poster.jpg') 50% 50% / cover no-repeat ;
+}
+.videomadal .modal-dialog video[poster]{
+	/*height:100%;*/
+	width:100%;
+	
+}
+/*.videomadal .modal-dialog video {
+	height: 90%;
+}
+.videomadal .modal-content {
+  height: auto;
+  min-height: 90%;
+  border-radius: 0;
+}*/
+
+.full-carowsel {
+	position: relative;
+}
+
+/*********** Business Earn *************/
+
+.payment_describe {
+    margin: 100px  0;
+    display: table;
+    width: 100%;
+}
+.payment_img img {
+	width: 63%;
+}
+.consell_btn {
+	position: absolute;
+	right: 0;
+	top: 25%;
+	z-index: 9999;
+}
+.consell_btn img {
+	width: 170px;
+}
+
+
+
+
+/************** Business Market ***********/
+
+.standout {
+	padding: 120px 0;
+	position: relative;
+}
+.calltoaction {
+	position: absolute;
+	right: 0;
+	top: 40%;
+	width: 22%;
+	/*height: 80px;*/
+	color: #dededd;
+	background: #fff;
+	padding: 30px 0;
+	border-left: 7px solid #50c3e7;
+	box-shadow: 0px 3px 4px rgba(52, 52, 52, 0.4);
+}
+.standout .calltoaction p {
+	margin: 10px 0 0;
+}
+.standout p {
+	line-height: 33px;
+	margin-top: 40px;
+}
+
+/******** Promotion *******/
+
+.promotion {
+	padding: 60px 0;
+}
+.promotiontxt {
+	padding-top: 20%;
+}
+.rsocialnet {
+    background: #343434;
+}
+.rsocial {
+	margin: 40px 0;
+}
+.rsocial a {
+	margin: 0 30px; 
+}
+.bretarget {
+	padding: 120px 0;
+}
+.bretarget p {
+	line-height: 33px;
+}
+.busireport {
+	background-position: center center;
+	background-repeat: no-repeat;
+	padding: 120px 0;
+	background-size: contain;
+	background-color: #fff;
+}
+.marketingprice .tablelist li {
+	height: auto;
+	line-height: 22px;
+    padding: 14px 0;
+}
+
+
+
+/**************** Business Sell *************/
+
+.bsell-search {
+    background: #343434;
+    padding: 60px 0;
+    display: table;
+    width: 100%;
+}
+.sellsearch .form-control {
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #fff url(../images/icon/select-arrow.png) 95% center no-repeat;
+    height: 45px;
+    position: relative;
+}
+.sellsearch .form-control:focus {
+	box-shadow: none;
+	border: 1px solid #41c5eb;
+}
+.sellsearch .form-group:after {
+	position: absolute;
+    content: '';
+    width: 4px;
+    height: 45px;
+    background: #343434;
+    right: 17%;
+    bottom: 15px;
+}
+.bsell-search h2 {
+	letter-spacing: 2px;
+	margin-bottom: 40px;
+}
+
+/********** Business Sell ***********/
+
+.sellsection {
+	background: #f3f3f3;
+	display: table;
+	width: 100%;
+}
+.sellsectioncentent {
+    padding: 20% 10% 0 0;
+}
+
+
+
+/************ Business Manage *****************/
+.ordermanage-iner {
+	display: table;
+	width: 100%;
+	/*background-attachment: fixed;*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-bottom: 0;
+	padding-top: 100px;
+}
+.ormng-content {
+    background: #fff;
+    padding: 40px 70px;
+}
+.ormng-content p {
+	padding-bottom: 10%;
+}
+.busimanag {
+	background: #f3f3f3;
+}
+.busimanag .bpol-right {
+    background: #f3f3f3;
+}
+.empmanag {
+	/*background-attachment: fixed;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: table;
+    width: 100%;
+}
+
+/******** Terms And COndition ***********/
+
+.header-breadcam {
+    position: relative;
+}
+
+.headercontent {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 14%;
+    width: 100%;
+}
+.tac_nav {
+	text-align: center;
+	margin: 80px 0;
+}
+.tac_list {
+	display: inline-block;
+}
+.tac_list li {
+	display: inline-block;
+	padding: 2px 15px;
+	border-right: 2px solid #343434;
+	float: left;
+}
+.tac_list li a.active,
+.tac_list li a:hover {
+	color: #47c5ed;
+}
+.tac_list li:last-child {
+	border-right: none;
+}
+.page-content {
+    padding: 20px 0 80px;
+}
+
+
+
+
+/********** About Us Page ***********/
+
+
+.fixedsection {
+	padding: 15em 0;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	display: table;
+    width: 100%;
+}
+.abouttxt {
+	padding: 13em 0;
+    position: relative;
+    visibility: visible;
+    animation-name: fadeIn;
+    margin-top: -120px;
+}
+/*.crossbg:after {
+	position: absolute;
+    display: inline-block;
+    content: '';
+    top: 0px;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    transform: SkewY(-4.2deg);
+    background: #fff;
+    z-index: -1;
+}*/
+.crossbg:before {
+    position: absolute;
+    display: inline-block;
+    content: '';
+    top: 0px;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    transform: SkewY(-10deg);
+    background: #fff;
+    z-index: 0;
+}
+.aboutcontent {
+	position: relative;
+	z-index: 2;
+}
+.onlyimg {
+	margin-top: -9em;
+	padding: 25em 0;
+}
+.imgtxt {
+	margin-top: -9em;
+}
+.headercontent img {
+	display: inline;
+}
+
+
+
+
+
+
+
+/************** Advance Search **************/
+
+.searchrightside {
+	margin-top: 24px;
+}
+.searchtitle {
+    padding: 10px 15px;
+}
+.pltop {
+    background: #343434;
+    padding: 15px 7px;
+    text-align: center;
+}
+.pltop span {
+	padding: 0 10px 0 0;
+}
+.distancesearch {
+    background: #343434;
+    padding: 10px 15px;
+}
+.distancesearch select.form-control{
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url(../images/icon/select-arrow.png), url(../images/icon/searchlocation-icon.png);
+    background-repeat: no-repeat no-repeat;
+    background-position: 95% center, 2% center;
+    text-transform: uppercase;
+    padding-left: 35px;
+    height: 45px;
+}
+.productslider {
+    background: #f7f8f8;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.productslider .carousel-control.left,
+.productslider .carousel-control.right {
+	background-image: none;
+}
+.productslider .carousel-control {
+	width: 0%;
+	color: #343434;
+	opacity: 1;
+	text-shadow: none;
+	top: 45%;
+}
+.productslider .carousel-control.left {
+	left: -10px;
+}
+.productslider .carousel-control.right {
+	
+}
+.productslider p {
+	line-height: 16px;
+}
+.productslider .logbtn .full_btn {
+	padding: 8px 40px;
+}
+.pricerange {
+    background: #f7f8f8;
+    padding: 15px;
+}
+.pricegraph {
+    margin: 10px 0;
+}
+
+#amount{
+    background: #fff;
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 3px rgba(52, 52, 52, 0.48);
+    position: relative;
+}
+#amount:after {
+	position: absolute;
+    content: '';
+    border-top: 7px solid #fff;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    bottom: -14px;
+    left: 42%;
+}
+
+.avatime {
+	background: #f7f8f8;
+    padding: 30px;
+    display: table;
+    width: 100%;
+    margin: 15px 0;
+}
+.prodltop {
+    background: #f7f8f8;
+    display: table;
+    width: 100%;
+    padding: 15px 30px;
+    margin-bottom: 30px;
+}
+.prodtls {
+    box-shadow: 7px 7px 4px -5px rgba(52, 52, 52, 0.45);
+        margin-bottom: 30px;
+}
+.protopheading {
+    background: #343434;
+    color: #fff;
+    position: relative;
+    padding: 8px;
+    font-size: 12px;
+}
+.posttime {
+	margin: 0;
+}
+.offertag {
+    position: absolute;
+    bottom: -70%;
+    right: 10px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    text-transform: uppercase;
+}
+.newpro {
+	background: url(../images/icon/ratetag2-icon.png)center center no-repeat;
+}
+.discountpro {
+	background: url(../images/icon/ratetag-icon.png)center center no-repeat;
+	padding: 14px 10px;
+	    line-height: 15px;
+}
+.pro_listing_bot {
+    background: #f4f4f4;
+    padding: 7px;
+}
+.pro_price {
+    padding: 7px 0;
+}
+.old-price {
+    float: right;
+    text-decoration: line-through;
+    color: #b7b3b2;
+}
+.locationandtime {
+	font-size: 13px;
+    color: #b7b3b2;
+}
+.postoccoution  {
+	margin-bottom: 0;
+}
+.recentpost {
+	color: #ef445b;
+}
+.recentweekpost {
+	color: #fec653;
+}
+.recentmonthpost {
+	color: #98cc6c;
+}
+.recentdaypost {
+	color: #fff;
+}
+.pagination > li > a, .pagination > li > span {
+	border: none;
+}
+.pagination > .active > a, 
+.pagination > .active > span, 
+.pagination > .active > a:hover, 
+.pagination > .active > span:hover, 
+.pagination > .active > a:focus, 
+.pagination > .active > span:focus,
+.pagination > li > a:hover, 
+.pagination > li > span:hover, 
+.pagination > li > a:focus, 
+.pagination > li > span:focus {
+	background-color: #343434;
+    border-color: #343434;
+    border-radius: 50%;
+        color: #b7b3b3;
+}
+.pagination > li > a, .pagination > li > span {
+	color: #b7b3b3;
+}
+.pagination-sm > li > a, .pagination-sm > li > span {
+	font-size: 14px;
+}
+

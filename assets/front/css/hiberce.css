@@ -1,0 +1,134 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.weakpwd{
+background-color: #DD0000;
+}
+.goodpwd{
+background-color: #FF4500;
+}
+.strongpwd{
+background-color: #C3FF88;
+
+}
+label.error{color:#dd0000;font-size: 13px;}
+
+
+
+.modal .or-divider {
+    margin-top: 14px;
+    text-align: center;
+}
+.modal .or-divider hr {
+    border-top: 1px solid rgba(238, 238, 238, 0.73);
+    display: inline-block;
+    width: 100px;
+}
+.modal .or-divider span {
+    bottom: 16px;
+    color: #aaaaa9;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+}
+
+.condition-txt a{color: #888888;}
+
+
+
+
+#user_registration
+{
+	border:1px solid #cccccc;
+	margin:auto auto;
+	margin-top:100px;
+	width:400px;
+}
+
+
+#user_registration label
+{
+        display: block;  /* block float the labels to left column, set a width */
+	float: left; 
+	width: 70px;
+	margin: 0px 10px 0px 5px; 
+	text-align: right; 
+	line-height:1em;
+	font-weight:bold;
+}
+
+#user_registration input
+{
+	width:250px;
+}
+
+#user_registration p
+{
+	clear:both;
+}
+
+#submit
+{
+	border:1px solid #cccccc;
+	width:100px !important;
+	margin:10px;
+}
+
+h1
+{
+	text-align:center;
+}
+
+#passwordStrength
+{
+	height:10px;
+	display:block;
+	float:left;
+}
+
+.strength0
+{
+	width:250px;
+	background:#cccccc;
+}
+
+.strength1
+{
+	width:50px;
+	background:#ff0000;
+}
+
+.strength2
+{
+	width:100px;	
+	background:#ff5f5f;
+}
+
+.strength3
+{
+	width:150px;
+	background:#56e500;
+}
+
+.strength4
+{
+	background:#4dcd00;
+	width:200px;
+}
+
+.strength5
+{
+	background:#399800;
+	width:250px;
+}
+
+
+label.error {
+    color: #ff4059;
+    font-size: 12px;
+    position: absolute;
+    top: 0;
+    right: 15px;
+}
